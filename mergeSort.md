@@ -1,4 +1,4 @@
-#mergeSort
+# MergeSort
 
 It is a comparison-based sorting algorithm. When implemented in a common way, this alignment belongs to a stable alignment, and is one of the subdivision conquering algorithms. John von Neumann developed it in 1945.
 
