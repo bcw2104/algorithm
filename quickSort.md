@@ -1,4 +1,4 @@
-##quickSort
+#QuickSort
 
 Quick sort is a method of sorting small or equal values based on the reference key by separating data with small values from those with large values into data with small values and those with large values.
     
