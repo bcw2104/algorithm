@@ -1,12 +1,14 @@
-# MergeSort
+# 병합 정렬
 
-It is a comparison-based sorting algorithm. When implemented in a common way, this alignment belongs to a stable alignment, and is one of the subdivision conquering algorithms. John von Neumann developed it in 1945.
+비교 기반 정렬 알고리즘입니다.<br>
+일반적인 방식으로 구현되는 경우 이 정렬은 안정적인 정렬에 속하며 세분화 정복 알고리즘 중 하나입니다.
 
-If the length of the list is less than one, it is considered to be already sorted. 
-otherwise
-    1.Divide: Cut the unordered list in half and divide it into two parts of a similar size.
-    2.Conquest: To sort each partial list recursively using the merger alignment.
-    3.Combine: Merge the two partial lists into one sorted list again. The alignment results are then stored in a temporary array.
-    4.Copy: Copies the results stored in the temporary array to the original array.
-    
-Time Complexity : O(NlogN)
+리스트의 길이가 1보다 작으면 이미 정렬된 것으로 간주됩니다.
+
+그렇지 않으면
+1. 나누기: 정렬되지 않은 목록을 반으로 잘라 비슷한 크기의 두 부분으로 나눕니다.
+2. 정복: 병합 정렬을 사용하여 각 부분 목록을 재귀적으로 정렬합니다.
+3. 조합: 두 부분 목록을 하나의 정렬된 목록으로 다시 병합합니다. 그런 다음 선형 결과가 임시 배열에 저장됩니다.
+4. 복사: 임시 배열에 저장된 결과를 원래 배열에 복사합니다.
+
+시간 복잡도 : O(NlogN)
